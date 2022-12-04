@@ -15,4 +15,8 @@ We use Figma as the design platform.
 ![](images/figma.png)
 
 
+# Design Primitives and Components
 
+Design/Edit your primitives and components in Figma.
+
+![](images/components.png)
