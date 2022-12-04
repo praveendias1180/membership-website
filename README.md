@@ -48,3 +48,7 @@ Design/Edit your primitives and components in Figma.
 # Stripe Webhook Succeeded
 
 ![](images/webhook-succeeded.png)
+
+# CloudWatch Logs
+
+![](images/cloudwatch-logs.png)
