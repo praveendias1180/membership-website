@@ -28,3 +28,7 @@ Design/Edit your primitives and components in Figma.
 # Fetch Figma
 
 ![](images/fetch-figma.png)
+
+# Backstage Ready
+
+![](images/backstage-1.png)
