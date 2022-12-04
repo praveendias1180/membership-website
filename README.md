@@ -40,3 +40,7 @@ Design/Edit your primitives and components in Figma.
 # Stripe Membership Product
 
 ![](images/stripe-product.png)
+
+# Stripe Checkout
+
+![](images/checkout.png)
