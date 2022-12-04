@@ -36,3 +36,7 @@ Design/Edit your primitives and components in Figma.
 # Testimonial Collection
 
 ![](images/testi-collection.png)
+
+# Stripe Membership Product
+
+![](images/stripe-product.png)
