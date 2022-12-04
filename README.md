@@ -56,3 +56,11 @@ Design/Edit your primitives and components in Figma.
 # Amazon API Gateway
 
 ![](images/newusercreate-api.png)
+
+# Email Verification
+
+![](images/email-verification.png)
+
+# Amazon Cognito User Pool
+
+![](images/cognito-pool.png)

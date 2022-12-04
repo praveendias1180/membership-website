@@ -66,13 +66,7 @@ app.post("/webhook", async function (req, res) {
     }
   );
 
-  const reply = {
-    success: 'get call succeed!', 
-    url: req.url,
-    customer: customer
-  }
 
-  res.json(reply);
 });
 app.listen(3000, function () {
   console.log("User Creation Function Started");
