@@ -7,7 +7,11 @@
 import * as React from "react";
 import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
 import { FlexProps } from "@aws-amplify/ui-react";
+import { SyntheticEvent } from "react";
 export declare type PersuadeProps = React.PropsWithChildren<Partial<FlexProps> & {
+    handleClick?: (event: SyntheticEvent) => void;
+    banner?: String;
+} & {
     overrides?: EscapeHatchProps | undefined | null;
 }>;
 export default function Persuade(props: PersuadeProps): React.ReactElement;

@@ -9,7 +9,7 @@ import * as React from "react";
 import { getOverrideProps } from "@aws-amplify/ui-react/internal";
 import { Flex, Image, Text, View } from "@aws-amplify/ui-react";
 export default function Story(props) {
-  const { overrides, ...rest } = props;
+  const { postModel, overrides, ...rest } = props;
   return (
     <Flex
       gap="11px"
@@ -38,6 +38,7 @@ export default function Story(props) {
         padding="0px 0px 0px 0px"
         opacity="0.699999988079071"
         objectFit="cover"
+        src="https://media.istockphoto.com/id/178539269/photo/a-small-red-old-fashioned-fiat-car-on-a-white-background.jpg?b=1&s=170667a&w=0&k=20&c=cK6qZ9QZvwJuF0m_WJPYJDa61Me6Oj2oLGnF7Rfqu-w="
         {...getOverrideProps(overrides, "Banner")}
       ></Image>
       <Text
@@ -59,7 +60,7 @@ export default function Story(props) {
         position="relative"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
-        children="Topic goes here"
+        children={postModel?.title}
         {...getOverrideProps(overrides, "Title")}
       ></Text>
       <Text
@@ -84,7 +85,7 @@ export default function Story(props) {
         position="relative"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
-        children="Ipsum nec euismod porta fusce ridiculus tincidunt praesent fermentum. Ante sed id donec adipiscing. "
+        children={postModel?.description}
         {...getOverrideProps(overrides, "Description")}
       ></Text>
       <View
@@ -121,7 +122,7 @@ export default function Story(props) {
         position="relative"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
-        children="2 mins read"
+        children={`${postModel?.readTime}${" mins read"}`}
         {...getOverrideProps(overrides, "ReadTime")}
       ></Text>
     </Flex>

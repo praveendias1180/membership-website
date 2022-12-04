@@ -5,9 +5,12 @@
  **************************************************************************/
 
 import * as React from "react";
+import { Testimonial } from "../models";
 import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
 import { ViewProps } from "@aws-amplify/ui-react";
 export declare type TestimonyProps = React.PropsWithChildren<Partial<ViewProps> & {
+    testimonyModel?: Testimonial;
+} & {
     overrides?: EscapeHatchProps | undefined | null;
 }>;
 export default function Testimony(props: TestimonyProps): React.ReactElement;

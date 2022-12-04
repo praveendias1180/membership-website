@@ -7,7 +7,13 @@
 import * as React from "react";
 import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
 import { FlexProps } from "@aws-amplify/ui-react";
+import { SyntheticEvent } from "react";
 export declare type NavProps = React.PropsWithChildren<Partial<FlexProps> & {
+    username?: String;
+    authText?: String;
+    avatar?: String;
+    handleAuth?: (event: SyntheticEvent) => void;
+} & {
     overrides?: EscapeHatchProps | undefined | null;
 }>;
 export default function Nav(props: NavProps): React.ReactElement;

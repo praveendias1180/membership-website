@@ -9,7 +9,7 @@ import * as React from "react";
 import { getOverrideProps } from "@aws-amplify/ui-react/internal";
 import { Flex, Image, Text, View } from "@aws-amplify/ui-react";
 export default function Testimony(props) {
-  const { overrides, ...rest } = props;
+  const { testimonyModel, overrides, ...rest } = props;
   return (
     <View
       width="380px"
@@ -82,7 +82,7 @@ export default function Testimony(props) {
               right="0%"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
-              children="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat dui, sed potenti et rhoncus ut. Odio diam sit rhoncus mauris. Nunc eros, turpis eleifend justo vulputate ipsum. "
+              children={testimonyModel?.testimony}
               {...getOverrideProps(
                 overrides,
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat dui, sed potenti et rhoncus ut. Odio diam sit rhoncus mauris. Nunc eros, turpis eleifend justo vulputate ipsum."
@@ -107,7 +107,7 @@ export default function Testimony(props) {
             position="relative"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
-            children="- Ann Franks"
+            children={testimonyModel?.name}
             {...getOverrideProps(overrides, "Author")}
           ></Text>
         </Flex>
@@ -125,6 +125,7 @@ export default function Testimony(props) {
         borderRadius="160px"
         padding="0px 0px 0px 0px"
         objectFit="cover"
+        src={testimonyModel?.avatar}
         {...getOverrideProps(overrides, "image")}
       ></Image>
     </View>

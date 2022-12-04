@@ -9,7 +9,7 @@ import * as React from "react";
 import { getOverrideProps } from "@aws-amplify/ui-react/internal";
 import { Flex, Image, Text } from "@aws-amplify/ui-react";
 export default function Persuade(props) {
-  const { overrides, ...rest } = props;
+  const { handleClick, banner, overrides, ...rest } = props;
   return (
     <Flex
       gap="33px"
@@ -99,6 +99,7 @@ export default function Persuade(props) {
         borderRadius="16px"
         padding="0px 0px 0px 0px"
         objectFit="unset"
+        src={banner}
         {...getOverrideProps(overrides, "Banner")}
       ></Image>
     </Flex>
