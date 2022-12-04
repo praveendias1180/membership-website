@@ -32,3 +32,7 @@ Design/Edit your primitives and components in Figma.
 # Backstage Ready
 
 ![](images/backstage-1.png)
+
+# Testimonial Collection
+
+![](images/testi-collection.png)
