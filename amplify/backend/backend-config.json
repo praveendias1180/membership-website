@@ -21,13 +21,13 @@
         }
       }
     },
-    "api4edde2d4": {
+    "newusercreate": {
       "service": "API Gateway",
       "providerPlugin": "awscloudformation",
       "dependsOn": [
         {
           "category": "function",
-          "resourceName": "membershipwebsite38ca2fb1",
+          "resourceName": "newusercreatefunction",
           "attributes": [
             "Name",
             "Arn"
@@ -65,7 +65,7 @@
     }
   },
   "function": {
-    "membershipwebsite38ca2fb1": {
+    "newusercreatefunction": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda",

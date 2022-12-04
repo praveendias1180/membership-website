@@ -15,9 +15,15 @@
       "auth": {
         "membershipwebsite": {}
       },
+      "api": {
+        "membershipwebsite": {},
+        "newusercreate": {}
+      },
       "function": {
-        "membershipwebsite38ca2fb1": {
-          "stripeKey": "sk_test_51LOBcvCJM0Ic7TGzleOKx8bkG0VYs8DQUlTaVv6yfMjvcOHraT3YWmFenwk1p6cXWtkikqw9t4kZNNyQo8qVwvaq00ksuV9PEj"
+        "newusercreatefunction": {
+          "stripeKey": "sk_test_51LOBcvCJM0Ic7TGzleOKx8bkG0VYs8DQUlTaVv6yfMjvcOHraT3YWmFenwk1p6cXWtkikqw9t4kZNNyQo8qVwvaq00ksuV9PEj",
+          "deploymentBucketName": "amplify-membershipwebsite-staging-25219-deployment",
+          "s3Key": "amplify-builds/newusercreatefunction-3944454c7a2f624c696b-build.zip"
         }
       }
     }

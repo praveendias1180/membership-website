@@ -3,7 +3,7 @@
   "paths": {
     "/webhook": {
       "name": "/webhook",
-      "lambdaFunction": "membershipwebsite38ca2fb1",
+      "lambdaFunction": "newusercreatefunction",
       "permissions": {
         "setting": "open"
       }
