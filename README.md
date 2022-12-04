@@ -24,3 +24,7 @@ Design/Edit your primitives and components in Figma.
 # Deploy Data Models
 
 ![](images/deploy-data.png)
+
+# Fetch Figma
+
+![](images/fetch-figma.png)
