@@ -64,3 +64,15 @@ Design/Edit your primitives and components in Figma.
 # Amazon Cognito User Pool
 
 ![](images/cognito-pool.png)
+
+# Delete Resources
+
+Delete All AWS Resources - Lambda | API Gateway | Cognito | CloudWatch Log | DynamoDB | S3 | etc.
+
+Change/Roll the Stripe API keys. Delete webhooks.
+
+# Demo
+
+![](images/youtube.png)
+
+https://www.youtube.com/watch?v=S6lSROspGUg
