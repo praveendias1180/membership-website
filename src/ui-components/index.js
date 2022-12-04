@@ -7,6 +7,7 @@
 export { default as TestimonyCollection } from "./TestimonyCollection";
 export { default as Stories } from "./Stories";
 export { default as Persuade } from "./Persuade";
+export { default as Hero } from "./Hero";
 export { default as Story } from "./Story";
 export { default as Logo } from "./Logo";
 export { default as Testimony } from "./Testimony";

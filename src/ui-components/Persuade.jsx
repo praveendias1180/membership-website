@@ -97,7 +97,7 @@ export default function Persuade(props) {
         position="relative"
         border="1px SOLID rgba(126,128,131,0.38)"
         borderRadius="16px"
-        padding="0px 0px 0px 0px"
+        padding="50px 0px 0px 0px"
         objectFit="unset"
         src={banner}
         {...getOverrideProps(overrides, "Banner")}

@@ -1,7 +1,8 @@
 //pages/index.js
 import React from "react";
 import { Flex, View } from "@aws-amplify/ui-react";
-import { Footer, Persuade, TestimonyCollection } from "../src/ui-components";
+import Head from 'next/head'
+import { Footer, Hero, Persuade, TestimonyCollection } from "../src/ui-components";
 import Layout from "../components/Layout";
 import { useRouter } from "next/router";
 import { loadStripe } from "@stripe/stripe-js";
@@ -22,17 +23,26 @@ function Index() {
   }
 
   return (
+    <>
+    <Head>
+        <title>Membership Website</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    </Head>
     <Layout handleClick={() => handleClick()} authText="Sign Up" username="none">
+      <View marginBottom="135px">
+        <Hero handleClick={handleClick} />
+      </View>
       <View>
         <TestimonyCollection />
       </View>
       <Flex justifyContent={"center"}>
-        <Persuade banner="https://i.imgur.com/MxbD3N4.png" />
+        <Persuade banner="https://svgshare.com/i/oZh.svg" />
       </Flex>
       <View marginTop="50px" marginBottom="50px">
         <Footer />
       </View>
     </Layout>
+    </>
   );
 }
 export default Index;
