@@ -20,3 +20,7 @@ We use Figma as the design platform.
 Design/Edit your primitives and components in Figma.
 
 ![](images/components.png)
+
+# Deploy Data Models
+
+![](images/deploy-data.png)
