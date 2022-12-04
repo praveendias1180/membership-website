@@ -52,3 +52,7 @@ Design/Edit your primitives and components in Figma.
 # CloudWatch Logs
 
 ![](images/cloudwatch-logs.png)
+
+# Amazon API Gateway
+
+![](images/newusercreate-api.png)
