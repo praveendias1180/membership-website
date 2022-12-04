@@ -44,3 +44,7 @@ Design/Edit your primitives and components in Figma.
 # Stripe Checkout
 
 ![](images/checkout.png)
+
+# Stripe Webhook Succeeded
+
+![](images/webhook-succeeded.png)
