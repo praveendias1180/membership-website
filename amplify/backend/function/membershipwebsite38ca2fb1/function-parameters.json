@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "auth": {
+      "membershipwebsite": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "stripeKey",
+      "environmentVariableName": "stripe_key"
+    }
+  ]
+}
